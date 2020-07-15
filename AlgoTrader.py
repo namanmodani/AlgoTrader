@@ -91,7 +91,7 @@ def main():
 
     upper_band, lower_band = get_bollinger_bands(rm, rst)
 
-    ax = df["Price"].plot(title = "NewStock", label = tickerId)
+    ax = df["Price"].plot(title = "Bollinger Bands", label = tickerId)
     rm.plot(label ='rolling mean', ax = ax)
     lower_band.plot(label = "lower band", ax = ax)
     upper_band.plot(label = "upper band", ax = ax)
