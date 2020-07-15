@@ -4,6 +4,9 @@ An Algorithmic Trading developed that makes use of the Bollinger Bands & Goldman
 
 Provides the user with:
 > Financial Returns Score
+,
 > Growth Score
+,
 > Multiple Score
+,
 > Integrated Score
