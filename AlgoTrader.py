@@ -7,8 +7,9 @@ import numpy as np
 
 import datetime
 
-
-
+def gs_factors(tickerId, startDate, endDate):
+    if type(tickerId) != str or type(startDate) != str or type(endDate) != str:
+        raise "Invalid input type(s), must be strings"
 
     auth_data = {
         'grant_type'    : 'client_credentials',
